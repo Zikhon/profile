@@ -1,0 +1,94 @@
+body {
+  background: #242333;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+/* ... your existing styles ... */
+
+.toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: none;
+}
+
+.toggle-button .bar {
+  display: block;
+  width: 22px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .navbar.open,
+  .nav-list.open {
+    display: block;
+    width: 40%;
+    
+  }
+
+  .toggle-button {
+    display: block;
+    right: 0;
+  }
+
+  .nav-list {
+    display: none;
+  }
+  nav{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
+
+  /* ... your existing media queries ... */
+}
+
+nav {
+  background-color:#242333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+  /* margin-left: 130vh; */ 
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin: 0 20px;
+  position: relative;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.nav-list li a::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #DD2E18;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.nav-list li a:hover::after {
+  width: 100%;
+}
+  

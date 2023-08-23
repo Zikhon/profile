@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "react-router-dom": "^6.15.0"
+  },
+  "dependencies": {
+    "link": "^1.5.1"
   }
 }
