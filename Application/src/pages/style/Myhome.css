@@ -1,0 +1,77 @@
+.header-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+  }
+  .header-text h1 {
+    font-size: 85px; 
+    margin-top: 20%;
+    /* margin-left: %; */
+    /* text-align: center; */
+  }
+  .sub-title span{
+    color: #DD2E18;
+  
+  }
+  /* span{
+    color: #DD2E18;
+  } */
+  .image img {
+    width: 100%;
+    border-radius: 15%;
+    padding-top: 80px;
+    padding-right: 40px;
+  } 
+  /* Media query for screens with max width of 768px */
+  @media (max-width: 768px) {
+    .image img {
+      padding-top: 40px; /* Adjust padding for smaller screens */
+      padding-right: 20px;/* Adjust padding for smaller screens */
+      display: flex;
+    }
+    .header-text h1 {
+      font-size: 45px; 
+      margin-top: 30%;
+  
+    }
+    .btnn {
+       font-size: 28px;
+      width: 100%;
+      padding: 8px 0;
+      margin-top: 35%; 
+    }
+  }
+  
+  .container {
+    padding:0 10%;
+  }
+  .container nav ul li a {
+  object-position: 10%;
+  }
+  .btnn {
+    background-color: #DD2E18;
+    color: #BBD0FF;
+    margin-left: 15%;
+    height: 60px;
+    width: 190px;
+    border: none;
+    border-radius: 20px;
+    font-family: Poppins;
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added box-shadow transition */
+    box-shadow: 0px 2px 4px rgba(234, 238, 6, 0.986); /* Added box-shadow */
+  }
+  
+  .btnn:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 4px 8px rgb(215, 238, 5); /* Adjusted shadow on hover */
+  }
+  
+  .btnn a{
+    text-decoration: none;
+    color: #BBD0FF;
+  }

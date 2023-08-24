@@ -1,6 +1,7 @@
 #about {
     padding: 80px 0;
     color: #fff;
+    background: url("/src/image1.avif");
 }
 .btn {
     background: #DD2E18;
