@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import './style/About.css'
 
 function About() {
@@ -65,7 +65,7 @@ function About() {
               <ul>
                 <li>
                   <span>JUL 2023 - current</span><br />
-                  Junior Software Dev. Company: Youngings
+                  Junior Software Dev. Company: Younglings
                 </li>
                 <li>
                   <span>JAN 2023-JUN 2023</span><br />

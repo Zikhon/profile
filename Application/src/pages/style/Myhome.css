@@ -1,3 +1,9 @@
+body {
+    background: url("/src/image2.avif");
+    color: #B8C0FF;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+  }
 .header-text {
     display: flex;
     justify-content: space-between;
@@ -50,7 +56,7 @@
   }
   .btnn {
     background-color: #DD2E18;
-    color: #BBD0FF;
+    /* color: #BBD0FF; */
     margin-left: 15%;
     height: 60px;
     width: 190px;
@@ -67,9 +73,10 @@
   }
   
   .btnn:hover {
-    background-color: #0056b3;
+    background-color: #B8C0FF;
     box-shadow: 0px 4px 8px rgb(215, 238, 5); /* Adjusted shadow on hover */
-  }
+}
+
   
   .btnn a{
     text-decoration: none;

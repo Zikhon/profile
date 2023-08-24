@@ -1,8 +1,4 @@
-body {
-  background: url("/src/image2.avif");
-  color: #B8C0FF;
-  font-family: 'Poppins', sans-serif;
-}
+
 /* ... your existing styles ... */
 
 .toggle-button {
@@ -95,12 +91,12 @@ nav {
 .nav-list li a:hover::after {
   width: 100%;
 }
-#header {
+/* #header {
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
-}
+} */
 
 
   
