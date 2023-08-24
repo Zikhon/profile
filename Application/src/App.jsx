@@ -2,6 +2,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Navbar";
 import Home from "./pages/Myhome";
+import About from "./pages/About";
 
 
 export default function App() {
