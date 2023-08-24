@@ -12,7 +12,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="about-col-1">
-            <img className="imagee" src="Zikho.png" alt="" />
+            <img className="imagee" src="/src/Zikho.png" alt="" />
             <a href="/">
               <button className="btn">Resume</button>
             </a>
