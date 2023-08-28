@@ -1,5 +1,5 @@
 import React from 'react'
-import About from './About'
+// import About from './About
 import './style/Myhome.css'
 
 export default function Myhome() {
@@ -15,7 +15,7 @@ export default function Myhome() {
         </div>
         
       </div>
-      <About />
+      {/* <About /> */}
     </div>
   )
 }
